@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>LPM PuffPuff</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>IMGSTG</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(4,2,65,1), stop: 0.427447 rgba(3,22,100,1), stop: 1 rgba(0, 0, 0, 255));
+font-family: LPM PuffPuff;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="b_vnedrenie">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>200</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 5px;
+color: white;
+font-size: 17px;</string>
+    </property>
+    <property name="text">
+     <string>ВНЕДРЕНИЕ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_izvlechenie">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>200</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 5px;
+color: white;
+font-size: 17px;</string>
+    </property>
+    <property name="text">
+     <string>ИЗВЛЕЧЕНИЕ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="l_welcome">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>LPM PuffPuff</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+color: white;
+font-size: 25px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>  ДОБРО ПОЖАЛОВАТЬ В IMGSTG!</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
